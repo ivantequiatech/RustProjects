@@ -1,0 +1,25 @@
+" --- VIM BASIC CONFIG FOR RUST ---
+
+" 1. Enable Syntax Highlighting (The Colors!)
+syntax on
+filetype plugin indent on
+
+" 2. Line Numbers (Critical for finding errors)
+set number
+
+" 3. Indentation (Rust standard is 4 spaces, not tabs)
+set tabstop=4       " Show existing tabs as 4 spaces width
+set shiftwidth=4    " When indenting with '>', use 4 spaces
+set expandtab       " On pressing tab, insert 4 spaces
+
+" 4. Search Settings
+set hlsearch        " Highlight all search results
+set incsearch       " Jump to the first match while typing
+
+" 5. Visual Aids
+set ruler           " Show line and column number in bottom right
+set cursorline      " Highlight the current line you are editing
+
+" 6. Color Scheme
+" 'desert' or 'slate' are great built-in themes for terminals
+colorscheme desert
